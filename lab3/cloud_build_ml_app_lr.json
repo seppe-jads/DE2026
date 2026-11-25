@@ -50,7 +50,7 @@
       "args": [
         "run",
         "deploy",
-        "prediction-api-lr",
+        "lr-prediction-api",
         "--image",
         "${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/prediction-api-lr:0.0.1",
         "--region",
